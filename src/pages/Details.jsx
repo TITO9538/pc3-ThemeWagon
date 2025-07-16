@@ -3,7 +3,7 @@ import React from "react";
 export default function Details() {
   return (
     <>
-      <section className="flex flex-col items-center justify-center gap-20 my-15 md:flex-row">
+      <section className="flex flex-col items-center justify-center gap-20 my-15 mt-30 md:flex-row">
         <div>
           <img
             src="../../themewagon/3.details/illustration3.png"
@@ -31,7 +31,7 @@ export default function Details() {
       </section>
       <img src="../../themewagon/3.details/illustration1.png" alt="" className="absolute top-30 z-[-100]"/>
       <img src="../../themewagon/3.details/illustration2.png" alt="" className="absolute top-90 right-0 z-[-100]"/>
-      <section className="flex flex-col items-center justify-center gap-20 my-15 md:flex-row">
+      <section className="flex flex-col items-center justify-center gap-20 my-15 md:flex-row mb-30">
         <div className="md:hidden">
           <img
             src="../../themewagon/3.details/illustration6.png"

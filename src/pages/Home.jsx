@@ -1,4 +1,7 @@
 import React from "react";
+import Services from "./Services";
+import Details from "./Details";
+import Features from "./Features";
 
 export default function Home() {
   return (
@@ -26,7 +29,9 @@ export default function Home() {
         <img src="../../themewagon/1.home/themewagon.png" alt="themewagon" className="w-20"/>
       </div>
       <div className="mt-5 mb-15 h-px w-full bg-gradient-to-r from-transparent via-indigo-300 to-transparent" />
-
+      <Services></Services>
+      <Details></Details>
+      <Features></Features>
     </>
   );
 }
