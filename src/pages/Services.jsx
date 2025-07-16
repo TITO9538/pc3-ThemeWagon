@@ -11,7 +11,7 @@ export default function Services() {
         </p>
       </div>
       <img
-        src="../../public/themewagon/2.services/illustration1.png"
+        src="../../themewagon/2.services/illustration1.png"
         alt="illustration1"
         className="w-50 absolute top-40 right-40 z-[-10]"
       />
