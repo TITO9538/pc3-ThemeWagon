@@ -178,7 +178,7 @@ export default function Header() {
               </svg>
               {modalOn && (
                 <div className="absolute top-0 right-0">
-                  <ul className="w-50 flex flex-col justify-center p-4 gap-3 text-purple-950 text-xl bg-gradient-to-r to-purple-200 from-indigo-200 shadow-2xl/80 rounded-bl-2xl">
+                  <ul className="w-50 flex flex-col justify-center p-4 gap-3 text-purple-950 text-sm bg-gradient-to-r to-purple-100 from-indigo-100 shadow-2xl/80 rounded-bl-2xl">
                     <li>
                       <Link to="/" className="flex items-center gap-1">
                         <span className="hover:text-[#4E92F9]">Home</span>
